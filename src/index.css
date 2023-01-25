@@ -98,8 +98,21 @@ code {
   margin-left: auto;
   border-style: groove;
   background-color: rgb(165, 190, 140);
-  
+  opacity: 0.5;
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover; 
+  position: relative;
  }
+
+
+.intro-message-container{
+
+  height: 220px;
+  width: 400px;
+  background-color: transparent;
+  margin-top: 100px;
+  margin-left: 70px;
+  position: absolute
+
+}

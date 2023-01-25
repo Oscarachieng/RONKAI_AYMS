@@ -6,7 +6,13 @@ const Home = () => {
     <div> <h3>Home Page  Content Goes Here! </h3>
     <div className='home-image' style={{ backgroundImage: `url(${backgroundImage})`}}>
 
-      
+      <div className='intro-message-container'>
+
+        <h4 className='welcome'> </h4>
+
+        <button className='logout'></button>
+
+      </div>
 
     </div>
     </div>
