@@ -14,7 +14,7 @@ function NavBar() {
     <div className='nav-wrapper'>
       <div className='nav-upper'>
         <div className='logo'><h3>Ronkai Central  AYS Portal, You are welcomed, feel at home</h3></div>
-        <div className='login'><a className='nav-sign-in'><NavLink >sign in</NavLink></a> <button className='logout'> Create Account</button></div>
+        <div className='login'><a className='nav-sign-in'><NavLink >sign in</NavLink></a> <button to='/createaccount' className='logout'> Create Account</button></div>
       </div>
       {/* <div className='nav-middle'>Middle Section</div> */}
       <div className='lower-section'>

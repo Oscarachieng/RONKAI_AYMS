@@ -109,10 +109,10 @@ code {
 .intro-message-container{
 
   height: 220px;
-  width: 400px;
-  background-color: transparent;
+  width: 30%;
+  background-color: green;
   margin-top: 100px;
-  margin-left: 70px;
+  margin-left: 100px;
   position: absolute
 
 }

@@ -30,8 +30,7 @@ function App() {
          <Route path='/sign-in' element={<SignIn/>} />
          <Route path='/createaccount' element={<CreateAccount/>} />
          <Route path='/members' element={<Members/>} />
-         <Route path='/leadership' element={<Leadership/>} />
-         
+         <Route path='/leadership' element={<Leadership/>} />  
       </Routes>
     </div>
   );
