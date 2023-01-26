@@ -15,6 +15,7 @@ import Members from './coomponents/aboutus/Members';
 import StudyMaterials from './coomponents/study-materials/StudyMaterials';
 import Reviews from './coomponents/reviews/Reviews';
 import EventCreationForm from './coomponents/activities/EventCreationForm';
+import ActivityRegistration from './coomponents/activities/ActivityRegistration';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
          <Route path='/members' element={<Members/>} />
          <Route path='/leadership' element={<Leadership/>} />  
          <Route path='/event-creation' element={<EventCreationForm/>} /> 
+         <Route path='/activity-registration' element={<ActivityRegistration/>} /> 
       </Routes>
     </div>
   );
