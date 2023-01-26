@@ -19,6 +19,7 @@ import ActivityRegistration from './coomponents/activities/ActivityRegistration'
 import ProfileUpdate from './coomponents/accounts/ProfileUpdate';
 import ProfilePage from './coomponents/accounts/ProfilePage';
 import StudyMaterialCreationForm from './coomponents/study-materials/StudyMaterialCreationForm';
+import Suggestions from './coomponents/reviews/Suggestions';
 function App() {
   return (
     <div className='app'>
@@ -40,6 +41,7 @@ function App() {
          <Route path='/profile-update' element={<ProfileUpdate/>} />
          <Route path='/profile-page' element={<ProfilePage/>} />
          <Route path='/study-material-creation' element={<StudyMaterialCreationForm/>} />
+         <Route path='/suggestions' element={<Suggestions/>} />
       </Routes>
     </div>
   );
