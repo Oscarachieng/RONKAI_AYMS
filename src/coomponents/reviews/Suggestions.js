@@ -17,7 +17,7 @@ const Suggestions = () => {
 
   return (
     <div>
-      <h4 className="form-header">Add a Book or an Aritcle :</h4>
+      <h4 className="form-header"> Member's Suggestions form:</h4>
       <div className="container">
         <form>
           <h5> Enter The agendum:</h5>
